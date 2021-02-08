@@ -1,0 +1,57 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    color: #263238;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+main {
+    min-height: calc(100% - 20px);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    max-width: 80%;
+}
+
+.footer {
+    padding-bottom: 24px;
+    font-size: 0.9em;
+    text-align: center;
+    color: #666;
+}
+
+.card {
+    margin-bottom: 24px;
+    padding: 12px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.hidden {
+    display: none;
+}
